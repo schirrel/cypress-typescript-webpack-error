@@ -5,6 +5,7 @@ import { defaultPaths, e2ePaths } from './config/paths';
 
 console.log(path.resolve(__dirname, './src/framework'));
 const config = {
+  scrollBehavior: false,
   ...defaultPaths,
   reporter: 'cypress-mochawesome-reporter',
   env,
