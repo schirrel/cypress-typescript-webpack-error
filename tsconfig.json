@@ -1,22 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "lib": ["ES2021", "dom"],
-    "types": ["cypress", "node"],
-    "typeRoots": ["./src/support/types"],
-    "noUnusedParameters": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitAny": true,
-    "strict": true,
-    "paths": {
-      "@/*": ["src/*"]
-    },
-    "baseUrl": "./"
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "node"]
   },
-  "include": [
-    "src/**/*.ts",
-    "node_modules/cypress",
-    "@testing-library/cypress"
-  ],
-  "exclude": ["node_modules"]
+  "include": ["**/*.ts", "cypress"]
 }
