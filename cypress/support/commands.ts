@@ -24,6 +24,9 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+function generateRandomWords(count) {
+  return `generating ${count}`;
+}
 
 Cypress.Commands.add(
   'typeRandomWords',
