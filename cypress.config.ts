@@ -1,6 +1,5 @@
 import { defineConfig } from "cypress";
 const config = {
-  scrollBehavior: false,
   e2e: {
     setupNodeEvents(on, config) {
       return config;
